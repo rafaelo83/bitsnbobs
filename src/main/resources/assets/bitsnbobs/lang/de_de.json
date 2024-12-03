@@ -1,3 +1,7 @@
 {
-  "item.bitsnbobs.gold_coin": "Goldene Münze"
+  "item.bitsnbobs.gold_coin"        : "Goldene Münze",
+
+  "item.bitsnbobs.raw_artron"       : "Rohes Artron",
+  "item.bitsnbobs.artron_nugget"    : "Artron Klumpen",
+  "item.bitsnbobs.artron_ingot"     : "Artron Barren"
 }

@@ -12,6 +12,10 @@ public class ModItems
 {
     public static final Item GOLD_COIN = registerItem("gold_coin", new Item(new Item.Settings()));
 
+    public static final Item RAW_ARTRON = registerItem("raw_artron", new Item(new Item.Settings()));
+    public static final Item ARTRON_NUGGET = registerItem("artron_nugget", new Item(new Item.Settings()));
+    public static final Item ARTRON_INGOT = registerItem("artron_ingot", new Item(new Item.Settings()));
+
     private static Item registerItem(String name,Item item)
     {
         return Registry.register(Registries.ITEM, Identifier.of(BitsNBobs.MOD_ID, name),item);
@@ -23,6 +27,9 @@ public class ModItems
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(GOLD_COIN);
+            entries.add(RAW_ARTRON);
+            entries.add(ARTRON_NUGGET);
+            entries.add(ARTRON_INGOT);
         });
     }
 }
