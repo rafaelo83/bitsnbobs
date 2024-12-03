@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "bitsnbobs:block/gold_coin_block"
+    }
+  }
+}
