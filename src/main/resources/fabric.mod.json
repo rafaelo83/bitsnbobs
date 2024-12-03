@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "bits-n-bobs",
+	"id": "bitsnbobs",
 	"version": "${version}",
 	"name": "Bits n Bobs",
 	"description": "Little Bits and Bobs added by rafaelo_ for him and his friends and others",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/rafaelo83/bitsnbobs"
 	},
 	"license": "MIT",
-	"icon": "assets/bits-n-bobs/icon.png",
+	"icon": "assets/bitsnbobs/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -24,7 +24,7 @@
 		"client": ["de.rafaelo_.bitsnbobs.BitsNBobsClient"]
 	},
 	"mixins": [
-		"bits-n-bobs.mixins.json"
+		"bitsnbobs.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
