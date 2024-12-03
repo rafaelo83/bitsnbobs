@@ -3,15 +3,15 @@
 	"id": "bits-n-bobs",
 	"version": "${version}",
 	"name": "Bits n Bobs",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Little Bits and Bobs added by rafaelo_ for him and his friends and others",
 	"authors": [
-		"Me!"
+		"rafaelo_"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/rafaelo83/bitsnbobs"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/bits-n-bobs/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,7 +20,8 @@
 		],
 		"fabric-datagen": [
 			"de.rafaelo_.bitsnbobs.BitsNBobsDataGenerator"
-		]
+		],
+		"client": ["de.rafaelo_.bitsnbobs.BitsNBobsClient"]
 	},
 	"mixins": [
 		"bits-n-bobs.mixins.json"
