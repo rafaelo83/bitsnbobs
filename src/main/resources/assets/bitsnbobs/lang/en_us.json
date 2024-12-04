@@ -1,4 +1,6 @@
 {
-  "item.bitsnbobs.gold_coin": "Gold Coin",
-  "block.bitsnbobs.gold_coin_block" : "Block of Gold Coins "
+  "item.bitsnbobs.gold_coin"        : "Gold Coin",
+  "block.bitsnbobs.gold_coin_block" : "Block of Gold Coins",
+
+  "itemgroup.bitsnbobs.bits_n_bobs" : "Bits n Bobs"
 }

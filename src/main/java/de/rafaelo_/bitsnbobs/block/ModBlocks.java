@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks
 {
-    private static final Block GOLD_COIN_BLOCK = registerBlock("gold_coin_block",
+    public static final Block GOLD_COIN_BLOCK = registerBlock("gold_coin_block",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static void registerBlockItemMethod(String name, Block block)

@@ -1,6 +1,7 @@
 package de.rafaelo_.bitsnbobs;
 
 import de.rafaelo_.bitsnbobs.block.ModBlocks;
+import de.rafaelo_.bitsnbobs.item.ModItemGroups;
 import de.rafaelo_.bitsnbobs.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,8 @@ public class BitsNBobs implements ModInitializer {
 	@Override
 	public void onInitialize()
 	{
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

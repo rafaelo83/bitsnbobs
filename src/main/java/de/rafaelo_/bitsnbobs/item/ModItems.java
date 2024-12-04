@@ -12,7 +12,6 @@ public class ModItems
 {
     public static final Item GOLD_COIN = registerItem("gold_coin", new Item(new Item.Settings()));
 
-
     private static Item registerItem(String name,Item item)
     {
         return Registry.register(Registries.ITEM, Identifier.of(BitsNBobs.MOD_ID, name),item);
