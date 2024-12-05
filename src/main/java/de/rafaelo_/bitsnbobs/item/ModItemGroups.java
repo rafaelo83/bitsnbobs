@@ -21,6 +21,7 @@ public class ModItemGroups
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.GOLD_COIN);
                         entries.add(ModBlocks.GOLD_COIN_BLOCK);
+                        entries.add(ModItems.SKIBIDI_TOILET);
                     })
                     .build());
 
