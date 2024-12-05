@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key":
+  {
+    "#":
+    {
+      "item": "bitsnbobs:gold_coin"
+    }
+  },
+  "pattern":
+          [
+            "###",
+            "###",
+            "###"
+          ],
+  "result":
+  {
+    "count": 1,
+    "id": "bitsnbobs:gold_coin_block"
+  }
+
+}

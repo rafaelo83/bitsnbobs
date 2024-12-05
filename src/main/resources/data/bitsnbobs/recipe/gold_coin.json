@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key":
+  {
+    "g":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern":
+  [
+    " g ",
+    "ggg",
+    " g "
+  ],
+  "result":
+  {
+    "count": 8,
+    "id": "bitsnbobs:gold_coin"
+  }
+
+}
